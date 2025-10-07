@@ -2,7 +2,7 @@
 
 ![Banner](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
 
-🚀 **Full Stack Developer | AI Enthusiast | Open Source Contributor**  
+🚀 **Full Stack Developer**  
 💡 Passionate about building **AI-first SaaS products**, scalable systems, and meaningful digital experiences.  
 
 I love exploring new technologies, solving challenging problems, and creating tools that make life easier for developers and users alike.
