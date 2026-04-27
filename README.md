@@ -1,85 +1,111 @@
-# 👋 Hey there, I'm Debjit Dey!
+<div align="center">
 
-![Banner](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
+```
+╔══════════════════════════════════════════════════════════╗
+║          debjit dey · full-stack engineer                ║
+║          building systems that hold under pressure       ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-🚀 **Full Stack Developer**  
-💡 Passionate about building **AI-first SaaS products**, scalable systems, and meaningful digital experiences.  
-
-I love exploring new technologies, solving challenging problems, and creating tools that make life easier for developers and users alike.
-
----
-
-## 🛠 My Tech Arsenal
-I build with these tools and technologies every day:
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-> "A developer is only as good as the tools they master."  
+</div>
 
 ---
 
-## 📊 GitHub Stats & Contributions
-I love contributing, experimenting, and learning constantly. Here’s a snapshot:
+### `whoami`
 
-![Debjit's GitHub stats](https://github-readme-stats.vercel.app/api?username=debjit450&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=debjit450&layout=compact&theme=tokyonight)
-![GitHub Streak](https://streak-stats.demolab.com?user=debjit450&theme=dark&border_radius=5)
+Full-stack engineer with ~1 year of production experience across two companies — frontend performance, backend services, cloud deployments. I own features end to end, from schema design to CI/CD pipeline. Currently heads-down on AI-first tooling and distributed systems.
 
----
-
-## 🌱 Currently Exploring
-I’m always learning and pushing boundaries. Right now, my focus is on:
-
-- **AI-first SaaS products** – designing intelligent workflows and solutions  
-- **Scalable & distributed systems** – cloud-native architectures, AWS best practices  
-- **Advanced JavaScript & TypeScript patterns** – clean code, modular architecture  
-- **Next.js ecosystem & modern web development trends**  
+Not a tutorial-follower. I read source code, trace errors through logs, and ship things that work.
 
 ---
 
-## 💡 About Me
-- Coffee enthusiast ☕ & night owl coding guru 🌙  
-- Open-source contributor and avid learner  
-- I enjoy building tools that save developers time and make complex systems simpler  
-- Passionate about mentoring, sharing knowledge, and collaborating on meaningful projects  
+### Stack
+
+```typescript
+const debjit = {
+  primary:   ["TypeScript", "Next.js", "React", "Node.js", "PostgreSQL"],
+  secondary: ["Python", "MongoDB", "MySQL", "Redis", "React Native"],
+  cloud:     ["AWS (EC2, S3)", "Docker", "GCP"],
+  tools:     ["Socket.io", "REST", "WebSockets", "Jest", "CI/CD"],
+  apis:      ["OpenAI", "Google Gemini", "Razorpay"],
+};
+```
 
 ---
 
-## 📫 Let’s Connect
-I love networking with like-minded developers, startups, and tech enthusiasts. Reach out anytime:
+### Experience
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-debjitdey.com-blue?style=flat&logo=google-chrome)](https://www.debjitdey.com/)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Debjit-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debjit-dey)  
-[![GitHub](https://img.shields.io/badge/GitHub-debjit450-black?style=flat&logo=github&logoColor=white)](https://github.com/debjit450)  
+**Valk Technologies & Solutions** · Full-Stack Developer · `Dec 2024 – Sep 2025`
+- Cut time-to-interactive ~35–40% across 3 client Next.js apps via SSR + route-level code splitting (Lighthouse-verified)
+- Designed and maintained Node.js/Express REST services across 50+ endpoints in 3 independently deployable services
+- Reduced high-traffic query latency ~60% on MySQL/MongoDB — audited slow-query logs, killed N+1 patterns, added composite indexes
+- Triaged and hotfixed production incidents via structured log tracing; zero data loss, zero-downtime restarts
 
----
-
-## ⚡ Fun Facts & Personality
-- I love **building things that combine AI + Web**.  
-- Sometimes I code just for fun, creating mini-games or AI experiments.  
-- I enjoy **tech humor and clever coding memes** (because coding life needs laughter).  
-
----
-
-> *“Code is like humor. When you have to explain it, it’s bad.” – Cory House*
+**Collabtalent LLC** · Frontend Engineer (Contract) · `Apr 2024 – Nov 2024`
+- Led full Angular → React migration, consolidated fragmented component architecture into unified state management; cut onboarding from ~3 weeks to ~5 days
+- Integrated streaming LLM APIs with async fetch + non-blocking UI; retry logic cut user-facing timeout errors ~70%
+- Built WCAG-AA compliant responsive layouts verified across Chrome, Firefox, Safari, and mobile viewports
 
 ---
 
-## 🔗 Quick Links
-- 🌐 Portfolio: [https://www.debjitdey.com](https://www.debjitdey.com)  
-- 🐙 GitHub: [https://github.com/debjit450](https://github.com/debjit450)  
-- 🔗 LinkedIn: [https://www.linkedin.com/in/debjit-dey](https://www.linkedin.com/in/debjit-dey)
+### Projects
+
+#### [`GrindNode`](https://github.com/debjit450) — AI Coding Interview Prep Platform
+`React 18` `TypeScript` `PostgreSQL` `Deno` `Docker` `AWS EC2` `Gemini API` `Razorpay`
+
+Sandboxed code execution platform with a custom judge engine — not a string-diff wrapper. Handles floating-point tolerance, tree/graph structure validation, and edge cases LeetCode-style runners miss. Four isolated language runtimes via Docker on EC2, per-subscription CPU/memory quotas. Monaco editor wired to Gemini for context-aware hints; reduced average time-to-solve ~25%.
+
+Payment infra runs on Razorpay with idempotent webhook listeners — prorated upgrades, downgrades, automated invoicing.
 
 ---
+
+#### [`StableJSON`](https://github.com/debjit450/stablejson) — JSON Utility Suite · `stablejson.vercel.app`
+`React 18` `TypeScript` `Vite` `Tailwind CSS` `shadcn/ui`
+
+Browser-native JSON toolkit — no backend, no data collection, no accounts. Validates, formats, minifies, diffs, sorts, and analyzes JSON entirely client-side. Features include JSONPath querying, TypeScript interface generation, Zod schema inference, CSV export, and a command palette (⌘K). Used by developers who don't want their API responses going through someone's server.
+
+---
+
+#### [`gitwit`](https://github.com/debjit450/gitwit) — AI Git Commit Generator · `npm install -g gitwit`
+`Node.js` `OpenAI API` `CLI`
+
+One command. Reads your `git diff --cached`, understands what changed, generates a [Conventional Commits](https://conventionalcommits.org/)-compliant message. No config, no friction. Supports `--commit` flag for single-command stage-and-commit workflows. Uses `gpt-4o-mini` — fast and cheap on purpose.
+
+```bash
+git add . && gitwit --commit
+# → feat(auth): add OAuth login support
+```
+
+---
+
+### Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=debjit450&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=debjit450&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e)
+
+</div>
+
+---
+
+### Certifications
+
+- **Google Cloud Digital Leader** — Google Cloud, Dec 2023
+
+---
+
+### Links
+
+| | |
+|---|---|
+| 🌐 Portfolio | [debjit-dey-2026.vercel.app](https://debjit-dey-2026.vercel.app) |
+| 💼 LinkedIn | [linkedin.com/in/debjit-dey](https://www.linkedin.com/in/debjit-dey) |
+| 🐙 GitHub | [github.com/debjit450](https://github.com/debjit450) |
+| 📬 Email | debjitdey450@gmail.com |
+
+---
+
+<div align="center">
+<sub>I write code that ships, not code that demos.</sub>
+</div>
