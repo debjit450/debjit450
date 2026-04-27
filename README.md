@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Debjit Dey 👋 🇮🇳
+# Hey, I'm Debjit Dey 👋 ![India](https://img.shields.io/badge/🇮🇳-India-FF9933?style=flat-square&labelColor=138808)
 
 ### Full-Stack Engineer · Kolkata, India
 
