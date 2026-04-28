@@ -113,15 +113,6 @@ Zero-config CLI that generates Conventional Commit messages from `git diff`. Min
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=debjit450&show_icons=true&theme=github_dark&hide_border=true)
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=debjit450&layout=compact&theme=github_dark&hide_border=true)
-
 </div>
 
 ---
