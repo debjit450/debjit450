@@ -31,10 +31,14 @@ const debjit = {
 ### Valk Technologies & Solutions · Full-Stack Developer
 `Dec 2024 – Sep 2025` · Kolkata, India
 
-- Improved time-to-interactive **~35–40%** across 3 Next.js apps via SSR and route-level code splitting — reduced bounce on the heaviest pages
-- Built and maintained **50+ REST endpoints** across multiple Node.js services; designed middleware layers for auth, rate limiting, and structured error handling
-- Cut database latency **~60%** by eliminating N+1 query patterns and adding targeted indexes on MySQL and MongoDB
-- Owned production incident response end-to-end — structured logging, root cause analysis, zero data loss across all incidents
+- Improved time-to-interactive by ˜35–40% across 3 client Next.js applications by introducing SSR and route-level
+code splitting; measured via Lighthouse before/after snapshots.
+- Cut average DB response time from ˜400ms to ˜160ms by auditing slow queries, eliminating N+1 patterns, and
+adding composite indexes on high-traffic MySQL and MongoDB collections.
+- Diagnosed and resolved production incidents using structured log tracing; added graceful shutdown handling to
+prevent data loss during service restarts.
+- Set up GitHub Actions CI pipelines for automated builds and Jest test runs on every pull request, catching
+regressions before merge.
 
 ---
 
