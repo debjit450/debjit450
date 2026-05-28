@@ -2,10 +2,10 @@
 
 # Debjit Dey
 
-### Software Engineer · Full-Stack Products · Applied AI · Developer Tools
+### Software Engineer · Full-Stack Products · Applied AI · Real-Time Systems
 
-I build things people can actually use — from interactive web products and developer tools  
-to live-data systems, automation, and experiments that grow into serious projects.
+I build end-to-end software products — web apps, live-data platforms, developer tools,  
+and ML-integrated systems that move from idea to deployment.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-debjit--dey--2026.vercel.app-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://debjit-dey-2026.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Debjit_Dey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debjit-dey)
@@ -17,173 +17,122 @@ to live-data systems, automation, and experiments that grow into serious project
 
 ## About Me
 
-I am a software engineer from Kolkata who enjoys taking ideas all the way from a rough concept to a working product.
+I am a full-stack developer from Kolkata with experience building and shipping products across frontend, backend and cloud environments.
 
-My projects sit across different parts of software engineering: real-time maps, AI-assisted products, developer utilities, scalable APIs, dashboards, payments, data pipelines, and the UI that ties everything together. I care about clean product experiences as much as the engineering underneath them.
+I like projects where the product is visible and the engineering matters: real-time tracking, interactive interfaces, async workflows, ML-assisted features, secure execution environments and production deployment.
 
-Most recently, I built **[SkyWatch Live](https://github.com/debjit450/skywatch-live)** — a live airspace and satellite tracking platform with anomaly detection, historical playback, weather and restriction overlays, and a complete full-stack architecture behind it.
-
-```ts
-const debjit = {
-  builds: ["products", "tools", "live-data platforms", "AI-powered experiences"],
-  enjoys: ["turning ideas into shipped software", "solving hard technical problems"],
-  currentlyExploring: ["real-time systems", "applied AI/ML", "product engineering"]
-};
-```
+Right now, my flagship project is **[SkyWatch Live](https://github.com/debjit450/skywatch-live)** — an airspace intelligence platform that tracks live aircraft, visualizes satellites and surfaces unusual flight behaviour using a three-model anomaly detection pipeline.
 
 ---
 
-## Featured Build — [SkyWatch Live](https://github.com/debjit450/skywatch-live)
+## Featured Project — [SkyWatch Live](https://github.com/debjit450/skywatch-live)
 
-### Live airspace surveillance, satellite tracking and anomaly detection
+### Airspace Intelligence Platform · `May 2026 - Present`
 
 [![Repository](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/debjit450/skywatch-live)
 [![Stars](https://img.shields.io/github/stars/debjit450/skywatch-live?style=for-the-badge&logo=github&label=Stars)](https://github.com/debjit450/skywatch-live/stargazers)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](https://github.com/debjit450/skywatch-live/blob/main/LICENSE)
 
 <a href="https://github.com/debjit450/skywatch-live">
-  <img src="https://raw.githubusercontent.com/debjit450/skywatch-live/main/frontend/public/showcase/skywatch.png" alt="SkyWatch Live dashboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/debjit450/skywatch-live/main/frontend/public/showcase/skywatch.png" alt="SkyWatch Live airspace intelligence dashboard" width="100%" />
 </a>
 
-**SkyWatch Live** started as a question: what would a serious, live aviation intelligence platform look like if built from public data?
+**SkyWatch Live** is a real-time airspace surveillance and anomaly detection platform built with public aviation and orbital data.
 
-It became a full product: an interactive map for tracking aircraft and satellites, exploring historical routes, checking weather and airspace restrictions, and surfacing unusual flight behaviour through anomaly scoring and custom alerts.
+At the captured project benchmark, it tracked **11,862 active aircraft** including **10,894 airborne aircraft** on 30-second polling cycles, combining state vectors from **5+ public feeds** with cross-source deduplication.
 
-#### What it includes
+#### What I built
 
-- Live aircraft visualization on a MapLibre/deck.gl map, with filters, route overlays and aircraft detail views.
-- Satellite tracking using CelesTrak data and SGP4 propagation.
-- Historical track playback, weather cards and aviation restriction overlays.
-- Rule-based and ML-assisted anomaly scoring, explainability details and configurable alerts.
-- A full-stack mode with persisted flight states, WebSocket updates, scheduled ingestion jobs and monitoring.
+- Ingested live ADS-B data from multiple public sources, including OpenSky, ADS-B One and FLARM, and displayed unique aircraft on an interactive Leaflet canvas map.
+- Implemented a **three-model ML ensemble** — Isolation Forest, Local Outlier Factor and MLP Autoencoder — over a **30-dimensional engineered feature space** for asynchronous trajectory anomaly detection.
+- Indexed **85,390 airport facilities across 249 countries** for origin and destination resolution.
+- Added SGP4 satellite propagation using CelesTrak TLE data, alongside live FAA TFR and AWC SIGMET airspace overlays.
+- Designed the event-driven workflow using Django Channels, Celery and Redis so ingestion and ML scoring run asynchronously while telemetry streams over WebSockets.
+- Exposed Prometheus metrics with custom gauges, counters and histograms for a Grafana observability dashboard.
 
-#### Built with
+#### Stack
 
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111827)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111827)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
-![MapLibre](https://img.shields.io/badge/MapLibre-396CB2?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-111827?style=flat-square)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
-[**View project →**](https://github.com/debjit450/skywatch-live) &nbsp;·&nbsp;
+[**View the repository →**](https://github.com/debjit450/skywatch-live) &nbsp;·&nbsp;
 [**Read the architecture →**](https://github.com/debjit450/skywatch-live/blob/main/docs/architecture.md) &nbsp;·&nbsp;
 [**Read the build story →**](https://medium.com/@debjitdey_59101/tracking-chaos-building-a-real-time-flight-anomaly-engine-with-django-celery-and-machine-3d499ab8824b)
 
 ---
 
-## Other Things I've Built
+## Another Product — [GrindNode](https://grindnode.app)
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### Coding Practice Platform · `Oct 2025 - Present`
 
-### [GrindNode](https://grindnode.app)
-**Coding interview preparation platform with AI assistance**
+A full-stack coding practice platform built around safe code execution, structured problem tracks and AI-assisted learning.
 
-A product for practising coding problems with sandboxed execution, a custom judge engine, contextual AI hints and payment workflows.
+- Built a custom judge engine that executes Python and Java submissions inside isolated Docker containers rather than running arbitrary user code on the host.
+- Designed validation for exact-match and floating-point outputs across **853 problems** spanning **35+ topic tracks**.
+- Added a Monaco-based editor for an IDE-like browser experience.
+- Integrated Razorpay payment webhooks with idempotent event handling to avoid duplicate subscription grants.
+- Added Gemini-powered hints that help users progress without revealing full solutions.
 
-`React` `TypeScript` `PostgreSQL` `Docker` `AWS` `Gemini API`
-
-</td>
-<td width="50%" valign="top">
-
-### [ARCE](https://github.com/debjit450/arce)
-**Adaptive rate limiting and abuse detection**
-
-A traffic-control system that reacts to suspicious request patterns using Redis-backed Lua scripts and live policy decisions.
-
-`TypeScript` `Node.js` `Redis` `Lua` `Docker`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [StableJSON](https://stablejson.vercel.app)
-**Private, browser-based JSON toolkit**
-
-Validate, format, compare, query and generate schemas from JSON entirely in the browser, without sending the data to a server.
-
-`React` `TypeScript`
-
-</td>
-<td width="50%" valign="top">
-
-### [gitwit](https://github.com/debjit450/gitwit)
-**AI commit message CLI**
-
-A small command-line tool that turns `git diff` output into clean Conventional Commit messages.
-
-`Node.js` `OpenAI API`
-
-</td>
-</tr>
-</table>
+`React` `Node.js` `PostgreSQL` `Docker` `AWS` `Gemini API`
 
 ---
 
 ## Experience
 
-### Valk Technologies & Solutions — Full-Stack Developer
-`Dec 2024 – Sep 2025` · Kolkata, India
+### Full-Stack Developer — Valk Technologies & Solutions
+`Dec 2024 - Sep 2025` · Kolkata, India
 
-- Improved time-to-interactive by **~35–40%** across three Next.js applications through server-side rendering and route-level code splitting.
-- Reduced average database response time from **~400 ms to ~160 ms** by fixing slow queries, removing N+1 patterns and adding composite indexes.
-- Investigated production incidents using structured logs and added graceful shutdown handling for safer service restarts.
-- Set up GitHub Actions workflows for builds and automated Jest tests on pull requests.
+- Served as the sole developer on **Inca**, a live ride-booking platform: built the Node.js backend, React Native Android apps for customers and drivers, and a Next.js admin dashboard; shipped the product to the Play Store where it reached **500+ downloads**.
+- Implemented real-time trip tracking and driver matching with Socket.io and MongoDB geospatial queries, keeping customer, driver and admin views synchronized without a polling layer.
+- Built product catalogue, cart and order-management workflows for an e-commerce platform using Next.js and MySQL, giving the business a single admin interface for inventory and orders.
+- Diagnosed N+1 query patterns and introduced composite indexes across MySQL and MongoDB to improve response times on frequently used endpoints without changing the schema.
+- Set up GitHub Actions CI/CD pipelines, environment-based configuration management and graceful shutdown handling to prevent in-flight request drops during deployments.
 
-### Collabtalent LLC — Frontend Engineer, Contract
-`Apr 2024 – Nov 2024` · Remote, United States
+### Frontend Engineer (Independent Contractor) — Collabtalent LLC
+`Mar 2024 - May 2024` · Remote, United States
 
-- Worked on an Angular-to-React migration that made the application easier for new developers to work with.
-- Integrated streaming LLM APIs with retry and backoff handling, reducing timeout failures by **~70%**.
-- Built responsive, accessible interfaces aligned with WCAG-AA requirements.
-
----
-
-## Tools & Technologies
-
-**Languages**  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-**Product Development**  
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111827)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![MapLibre](https://img.shields.io/badge/MapLibre-396CB2?style=flat-square)
-
-**Backend, Data & Infrastructure**  
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+- Migrated core frontend components from Angular to React using TypeScript strict mode, eliminating a recurring class of runtime type errors in the existing codebase.
+- Built asynchronous request handling with retry logic and streaming support for LLM API integrations, keeping the UI responsive during high-latency model responses.
+- Brought UI components up to WCAG-AA accessibility standards, improving screen-reader usability and resolving cross-browser responsiveness gaps.
 
 ---
 
-## Education
+## Tech I Work With
 
-**B.Tech in Computer Science Engineering**  
-Techno India University, Kolkata · CGPA: **8.31**
+| Area | Technologies |
+| :--- | :--- |
+| **Languages** | TypeScript, JavaScript (ES6+), Python, Lua |
+| **Frontend** | React.js, Next.js, React Native |
+| **Backend** | Node.js, Express.js, Django, REST APIs, WebSockets, Socket.io, Celery |
+| **Databases** | PostgreSQL, MySQL, MongoDB, Redis |
+| **ML & Data** | scikit-learn, Keras, Isolation Forest, Local Outlier Factor, MLP Autoencoder, LSTM, feature engineering |
+| **Cloud & DevOps** | Docker, AWS EC2, S3, CloudFront, GCP Compute Engine, GitHub Actions, CI/CD |
+
+---
+
+## Education & Certification
+
+**B.Tech, Computer Science Engineering**  
+Techno India University, Kolkata · `2020 - 2024` · **CGPA: 8.31 / 10**
+
+**Google Cloud Digital Leader**  
+Google Cloud · `Dec 2023`
 
 ---
 
 <div align="center">
 
-### I like building ambitious ideas into software that works.
+### I build complete products, not just isolated features.
 
-Open to opportunities across **software engineering**, **full-stack product development**,  
-**applied AI/ML**, and **developer-focused products**.
+Open to opportunities in **software engineering**, **full-stack development**,  
+**applied AI/ML** and **product-focused engineering**.
 
 [![Portfolio](https://img.shields.io/badge/View_Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://debjit-dey-2026.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debjit-dey)
