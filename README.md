@@ -17,7 +17,7 @@ and ML-integrated systems that move from idea to deployment.
 
 ## About Me
 
-I am a full-stack developer from Kolkata with experience building and shipping products across frontend, backend and cloud environments.
+I am a full-stack developer from Kolkata, India with experience building and shipping products across frontend, backend and cloud environments.
 
 I like projects where the product is visible and the engineering matters: real-time tracking, interactive interfaces, async workflows, ML-assisted features, secure execution environments and production deployment.
 
